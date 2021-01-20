@@ -1,0 +1,282 @@
+object Form9: TForm9
+  Left = 0
+  Top = 0
+  Caption = 'Form9'
+  ClientHeight = 437
+  ClientWidth = 704
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 704
+    Height = 81
+    Align = alTop
+    TabOrder = 0
+    object CadastroCliente: TLabel
+      Left = 32
+      Top = 26
+      Width = 184
+      Height = 23
+      Caption = 'Cadastro de cliente'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -19
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Button1: TButton
+      Left = 224
+      Top = 14
+      Width = 90
+      Height = 55
+      Caption = '&Novo'
+      TabOrder = 0
+    end
+    object Button2: TButton
+      Left = 320
+      Top = 14
+      Width = 90
+      Height = 55
+      Caption = '&Salvar'
+      TabOrder = 1
+    end
+    object Button3: TButton
+      Left = 416
+      Top = 14
+      Width = 90
+      Height = 55
+      Caption = '&Cancelar'
+      TabOrder = 2
+    end
+    object bu: TButton
+      Left = 512
+      Top = 14
+      Width = 90
+      Height = 55
+      Caption = '&Excluir'
+      TabOrder = 3
+    end
+    object Button4: TButton
+      Left = 608
+      Top = 14
+      Width = 90
+      Height = 55
+      Caption = '&Sair'
+      TabOrder = 4
+      OnClick = Button4Click
+    end
+  end
+  object PageControl1: TPageControl
+    Left = 0
+    Top = 81
+    Width = 704
+    Height = 356
+    ActivePage = TabSheet1
+    Align = alClient
+    TabOrder = 1
+    ExplicitHeight = 342
+    object TabSheet1: TTabSheet
+      Caption = 'Dados Pessoais'
+      ExplicitLeft = 44
+      ExplicitTop = 56
+      ExplicitHeight = 314
+      object Label1: TLabel
+        Left = 28
+        Top = 24
+        Width = 84
+        Height = 13
+        Caption = 'C'#243'digo do Cliente'
+      end
+      object Label2: TLabel
+        Left = 28
+        Top = 88
+        Width = 78
+        Height = 13
+        Caption = 'Nome do Cliente'
+      end
+      object Label3: TLabel
+        Left = 192
+        Top = 24
+        Width = 71
+        Height = 13
+        Caption = 'Tipo de Cliente'
+      end
+      object Label4: TLabel
+        Left = 361
+        Top = 24
+        Width = 70
+        Height = 21
+        Caption = 'RG'
+      end
+      object Label5: TLabel
+        Left = 508
+        Top = 24
+        Width = 85
+        Height = 13
+        Caption = 'Data de Cadastro'
+      end
+      object Label6: TLabel
+        Left = 28
+        Top = 144
+        Width = 45
+        Height = 13
+        Caption = 'Endereco'
+      end
+      object Label7: TLabel
+        Left = 28
+        Top = 216
+        Width = 28
+        Height = 13
+        Caption = 'Bairro'
+      end
+      object Label8: TLabel
+        Left = 192
+        Top = 216
+        Width = 33
+        Height = 13
+        Caption = 'Cidade'
+      end
+      object Label9: TLabel
+        Left = 398
+        Top = 216
+        Width = 33
+        Height = 18
+        Caption = 'Estado'
+      end
+      object Label10: TLabel
+        Left = 488
+        Top = 216
+        Width = 19
+        Height = 13
+        Caption = 'CEP'
+      end
+      object Label11: TLabel
+        Left = 364
+        Top = 88
+        Width = 42
+        Height = 16
+        Caption = 'Telefone'
+      end
+      object Label12: TLabel
+        Left = 508
+        Top = 88
+        Width = 33
+        Height = 13
+        Caption = 'Celular'
+      end
+      object Edit1: TEdit
+        Left = 28
+        Top = 43
+        Width = 117
+        Height = 21
+        TabOrder = 0
+      end
+      object Edit2: TEdit
+        Left = 28
+        Top = 107
+        Width = 309
+        Height = 21
+        TabOrder = 1
+      end
+      object ComboBox1: TComboBox
+        Left = 192
+        Top = 43
+        Width = 145
+        Height = 21
+        Style = csDropDownList
+        TabOrder = 2
+        Items.Strings = (
+          'Pessoa F'#237'sica'
+          'Pessoa Jur'#237'dica')
+      end
+      object Edit3: TEdit
+        Left = 361
+        Top = 43
+        Width = 121
+        Height = 21
+        TabOrder = 3
+      end
+      object Edit4: TEdit
+        Left = 508
+        Top = 43
+        Width = 121
+        Height = 21
+        TabOrder = 4
+      end
+      object Edit5: TEdit
+        Left = 28
+        Top = 171
+        Width = 309
+        Height = 21
+        TabOrder = 5
+      end
+      object Edit6: TEdit
+        Left = 28
+        Top = 248
+        Width = 121
+        Height = 21
+        TabOrder = 6
+      end
+      object Edit7: TEdit
+        Left = 192
+        Top = 248
+        Width = 185
+        Height = 21
+        TabOrder = 7
+      end
+      object Edit8: TEdit
+        Left = 398
+        Top = 248
+        Width = 59
+        Height = 21
+        TabOrder = 8
+      end
+      object Edit9: TEdit
+        Left = 488
+        Top = 248
+        Width = 121
+        Height = 21
+        TabOrder = 9
+      end
+      object Edit10: TEdit
+        Left = 364
+        Top = 110
+        Width = 121
+        Height = 21
+        TabOrder = 10
+      end
+      object Edit11: TEdit
+        Left = 508
+        Top = 110
+        Width = 121
+        Height = 21
+        TabOrder = 11
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'Dados do Conjug'#234
+      ImageIndex = 1
+      ExplicitHeight = 314
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'Dados do Trabalho'
+      ImageIndex = 2
+      ExplicitLeft = 2
+      ExplicitHeight = 314
+    end
+    object TabSheet4: TTabSheet
+      Caption = 'An'#225'lise de cr'#233'dito'
+      ImageIndex = 3
+      ExplicitHeight = 314
+    end
+  end
+end

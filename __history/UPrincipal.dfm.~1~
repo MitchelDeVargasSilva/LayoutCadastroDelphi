@@ -1,0 +1,105 @@
+object Form9: TForm9
+  Left = 0
+  Top = 0
+  Caption = 'Form9'
+  ClientHeight = 423
+  ClientWidth = 704
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 704
+    Height = 81
+    Align = alTop
+    TabOrder = 0
+    ExplicitTop = 8
+    object CadastroCliente: TLabel
+      Left = 32
+      Top = 26
+      Width = 201
+      Height = 23
+      Caption = 'Cadastro de cliente'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -19
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Button1: TButton
+      Left = 224
+      Top = 14
+      Width = 90
+      Height = 55
+      Caption = '&Novo'
+      TabOrder = 0
+    end
+    object Button2: TButton
+      Left = 320
+      Top = 14
+      Width = 90
+      Height = 55
+      Caption = '&Salvar'
+      TabOrder = 1
+    end
+    object Button3: TButton
+      Left = 416
+      Top = 14
+      Width = 90
+      Height = 55
+      Caption = '&Cancelar'
+      TabOrder = 2
+    end
+    object bu: TButton
+      Left = 512
+      Top = 14
+      Width = 90
+      Height = 55
+      Caption = '&Excluir'
+      TabOrder = 3
+    end
+    object Button4: TButton
+      Left = 608
+      Top = 14
+      Width = 90
+      Height = 55
+      Caption = '&Sair'
+      TabOrder = 4
+      OnClick = Button4Click
+    end
+  end
+  object PageControl1: TPageControl
+    Left = 0
+    Top = 81
+    Width = 704
+    Height = 342
+    ActivePage = TabSheet3
+    Align = alClient
+    TabOrder = 1
+    object TabSheet1: TTabSheet
+      Caption = 'Dados Pessoais'
+      ExplicitLeft = 8
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'Dados do Conjug'#234
+      ImageIndex = 1
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'Dados do Trabalho'
+      ImageIndex = 2
+    end
+    object TabSheet4: TTabSheet
+      Caption = 'An'#225'lise de cr'#233'dito'
+      ImageIndex = 3
+      ExplicitLeft = 8
+    end
+  end
+end
